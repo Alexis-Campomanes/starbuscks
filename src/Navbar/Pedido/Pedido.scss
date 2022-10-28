@@ -1,0 +1,14 @@
+.pedido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    height: 45px;
+    background-color: var(--bg-delivery);
+    color: white;
+    >:nth-child(2){
+        font-size: 16px;
+        font-weight: bold;
+        padding-right: 20px;
+    }
+}
