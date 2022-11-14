@@ -1,0 +1,14 @@
+.bebidas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 20px;
+    margin-top: 1.5rem;
+    background-color: var(--bs-grey);
+    .list-bebidas{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+}

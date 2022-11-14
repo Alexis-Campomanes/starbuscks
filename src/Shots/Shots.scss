@@ -1,0 +1,10 @@
+.shots{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    .s-img{
+        width: 480px;
+        height: 168px;
+    }
+}
