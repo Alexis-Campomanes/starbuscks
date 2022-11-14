@@ -1,5 +1,6 @@
 import './App.scss';
 import Bebidas from './Bebidas/Bebidas';
+import Footer from './Footer/Footer';
 import Lista from './Navbar/Lista/Lista';
 import Navbar from './Navbar/Navbar';
 import Pedido from './Navbar/Pedido/Pedido';
@@ -16,6 +17,7 @@ function App() {
       <Slide />
       <Shots />
       <Bebidas />
+      <Footer />
     </div>
   );
 }
