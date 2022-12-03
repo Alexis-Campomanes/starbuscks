@@ -6,7 +6,7 @@ const Email = () => {
         <div className='email'>
           <form>
             <label>
-              <p>¿Quieres estar al tanto de nuestras promociones y beneficios?</p>
+              <span>¿Quieres estar al tanto de nuestras promociones y beneficios?</span>
               <p>¡Déjanos tu correo!</p>
               <input type="text" />
               <button>suscribirme</button>
