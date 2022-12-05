@@ -1,0 +1,28 @@
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 18px;
+    .sobre-n{
+        display: flex;
+        align-items: center;
+        
+        .n-text{
+            display: flex;
+            justify-content: center;
+            flex: 7;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-align: center;
+            padding-left: 50px;
+            
+        }
+        .n-add{
+            display: flex;
+            justify-content: center;
+            flex: 1;
+            font-weight: bold;
+            font-size: 20px;
+        }      
+    }
+}

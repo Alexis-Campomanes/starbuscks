@@ -3,6 +3,7 @@ import Email from './Email/Email';
 import './Footer.scss';
 import logo from '../Assets/logo.png';
 import Nosotros from './Nosotros/Nosotros';
+import Followers from './Followers/Followers';
 
 const Footer = () => {
     return (
@@ -13,9 +14,8 @@ const Footer = () => {
           src={ logo } 
           alt="Not Fount" />
           <Email />
-          <div>
-            <Nosotros />
-          </div> 
+          <Nosotros />
+          <Followers />
         </div>
     );
 }

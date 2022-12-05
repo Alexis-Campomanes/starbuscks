@@ -13,7 +13,7 @@ import slide6 from '../Assets/7.png'
 
 const Slide = () => {
     return (
-      <div>
+      <div className='slide'>
         <Carousel>
           <Carousel.Item interval={1000}>
             <img
