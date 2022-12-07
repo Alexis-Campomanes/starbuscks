@@ -1,0 +1,49 @@
+.m-rewards{
+    margin: 0px;
+    padding: 222px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+   .r-mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(10,103,74);
+    background: linear-gradient(180deg, rgba(10,103,74,1) 0%, rgba(25,66,55,1) 100%);
+    padding: 49px 0px 247px 0px;
+    .marcador{
+        margin-top: 30px;
+        padding-bottom: 16px;
+        width: 174.11px;
+        height: 174.11px;
+    }
+    .m-green{
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: normal;
+        margin-bottom: 15px;
+    }
+    .m-starbucks{
+        width: 250px;
+        height: 86.6px;
+    }
+    .m-registrate{
+        margin-bottom: 15px;
+        text-align: center;
+        font-size: 1.37em;
+        font-weight: 500;
+        padding: 0px 40px;
+    }
+    .m-button{
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        background-color: var(--bg-delivery);
+        font-weight: bold;
+        border: 2px solid white;
+        border-radius: 50px;
+        width: 170px;
+        padding: 10px;
+        margin-top: 24px;
+        font-size: 14px;
+    }
+} 
+}
