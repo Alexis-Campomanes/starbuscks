@@ -8,19 +8,26 @@ body {
   
 }
 ::-webkit-scrollbar {display: none;}
-
-.m-enlace{
+.mission{
   display: flex;
-  gap: 10px;
-  color: var(--text-nosotros);
-  font-weight: bold;
-  font-size: 14px; 
-}
-.m-title{
-  display: flex;
-  justify-content: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin: 15px 0px 20px 0px;
-  font-size: 32px;  
+  flex-direction: column;
+  padding: 195px 15px 15px 15px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  .m-enlace{
+    display: flex;
+    gap: 10px;
+    color: var(--text-nosotros);
+    font-weight: bold;
+    font-size: 14px; 
+  }
+  .m-title{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 15px 0px 20px 0px;
+    font-size: 32px;  
+  }
 }

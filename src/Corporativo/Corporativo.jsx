@@ -3,7 +3,7 @@ import './Corporativo.scss'
 
 const Corporativo = () => {
     return (
-        <div className='corporativo'>
+        <div className='mission'>
           <div className='m-enlace'>
             <span>Starbucks</span>
             <span>></span>
