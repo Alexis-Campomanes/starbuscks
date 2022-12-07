@@ -1,5 +1,6 @@
 import './App.scss';
 import Bebidas from './Bebidas/Bebidas';
+import Corporativo from './Corporativo/Corporativo';
 import Footer from './Footer/Footer';
 import Mission from './Mission/Mission';
 import Layout from './Page/Layout/Layout';
@@ -11,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Layout />
-      <Mission />
+      <Corporativo />
       <Footer />
     </div>
   );
