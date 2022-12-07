@@ -13,58 +13,62 @@ import slide6 from '../Assets/7.png'
 
 const Slide = () => {
     return (
-      <div className='slide'>
-        <Carousel>
-          <Carousel.Item interval={1000}>
-            <img
-              className="d-block w-100"
-              src={slide}
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item interval={1000}>
-            <img
-              className="d-block w-100"
-              src={slide1}
-              alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={slide2}
-              alt="Third slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item interval={1000}>
-            <img
-              className="d-block w-100"
-              src={slide3}
-              alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item interval={1000}>
-            <img
-              className="d-block w-100"
-              src={slide4}
-              alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item interval={1000}>
-            <img
-              className="d-block w-100"
-              src={slide5}
-              alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item interval={1000}>
-            <img
-              className="d-block w-100"
-              src={slide6}
-              alt="Second slide"
-            />
-          </Carousel.Item>
-        </Carousel>
+      <div className='slide-conteiner'>
+        <div className='slide-top'></div>
+        <div className='slide-button'>
+          <Carousel>
+            <Carousel.Item interval={1000}>
+              <img
+                className="d-block w-100"
+                src={slide}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item interval={1000}>
+              <img
+                className="d-block w-100"
+                src={slide1}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={slide2}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item interval={1000}>
+              <img
+                className="d-block w-100"
+                src={slide3}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item interval={1000}>
+              <img
+                className="d-block w-100"
+                src={slide4}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item interval={1000}>
+              <img
+                className="d-block w-100"
+                src={slide5}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item interval={1000}>
+              <img
+                className="d-block w-100"
+                src={slide6}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+        </div>
+        
       </div>
      
     );

@@ -1,5 +1,12 @@
-.slide{
-    position: relative;
-    z-index: 1;
-    padding-top: 95px;
+.slide-conteiner{
+    display: flex;
+    flex-direction: column;
+    .slide-top{
+        display: flex;
+        height: 200px;
+    }
+    .slide-button{
+        position: relative;
+        z-index: 1;
+    }
 }
