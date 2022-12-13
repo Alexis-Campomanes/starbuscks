@@ -1,0 +1,14 @@
+.beneficios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 24px 0px;
+    padding: 0px 15px;
+    text-align: center;
+    >:nth-child(1){
+        height: 77px;
+        width: 77px;
+    }
+}

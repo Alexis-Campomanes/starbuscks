@@ -1,0 +1,25 @@
+.option{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    margin: 0px 56.250px;
+    font-weight: bold;
+    .o-conteiner{
+        display: flex;
+        width:367.5px ;
+        height: 75px;
+        gap: 2rem;  
+        .o-img{
+            height: 75px;
+            width: 75px  ;
+        }
+        .o-text{
+            margin-right: 7rem !important;
+            text-align: start;
+            line-height: 15px;
+        }
+    }
+    .o-hr{
+        margin: 0px;
+    }
+}

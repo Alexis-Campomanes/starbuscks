@@ -14,7 +14,7 @@ const Mission = () => {
             <span> Nuestra Misión</span>  
           </div>
           <h1 className='m-title'>nuestas misión</h1>
-              <section>
+              <section className='m-section'>
                 <p className='c-4'></p>
                 <span className='m-humano'>
                   Inspirar y nutrir el espíritu humano: Una persona, una taza de café y una comunidad a la vez. 
